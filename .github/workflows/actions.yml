@@ -21,6 +21,7 @@ jobs:
       env:
         VIRTUALENV: env
       run: |
+        pip install virtualenv
         virtualenv -p python $VIRTUALENV
         source $VIRTUALENV/bin/activate
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi

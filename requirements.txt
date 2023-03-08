@@ -26,6 +26,5 @@ toml==0.10.2
 tqdm==4.65.0
 troposphere==4.3.0
 urllib3==1.26.14
-virtualenv==20.20.0
 Werkzeug==2.2.3
 zappa==0.56.1
