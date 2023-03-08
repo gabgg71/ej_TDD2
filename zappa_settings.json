@@ -12,7 +12,7 @@
 
         "events": [{
            "function": "descargar.lambda1", 
-           "expressions": ["cron(20 15 * * ? *)"] 
+           "expressions": ["cron(13 00 * * ? *)"] 
        }],
     },
     "dev2": {
