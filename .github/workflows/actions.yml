@@ -30,7 +30,8 @@ jobs:
         aws-region: "us-east-1"
     - name: Actualiza etapas
       run: |
-        zappa update dev dev2
+        zappa update dev
+        zappa update dev2
     - name: Prueba
       run: |
         zappa invoke dev descargar.lambda1
