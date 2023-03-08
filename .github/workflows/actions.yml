@@ -41,5 +41,8 @@ jobs:
         zappa update dev
         zappa update dev2
     - name: Prueba
+      env:
+        VIRTUALENV: env
       run: |
+        source $VIRTUALENV/bin/activate
         zappa invoke dev descargar.lambda1
